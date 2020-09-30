@@ -1,0 +1,236 @@
+.contacts {
+
+    background-color: #445162;
+
+    .contacts_title {
+        color: #ffffff;
+    }
+    
+    .contacts_inner {
+        display: flex;
+        flex-direction: column;
+
+        .contacts_form {
+
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+    
+            font-size: 16px;
+            line-height: 24px;
+            color: #445162;
+    
+            & > * {
+                height: 40px;
+                padding-left: 10px;
+                margin-bottom: 20px;
+    
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background-color: #ffffff;
+    
+            }
+    
+            .contacts_message {
+                resize: none;
+                padding: 10px;
+            }
+    
+            .contacts_btn {
+                padding:0;
+                height: 40px;
+                width: 140px;
+                margin: 0 auto;
+    
+                color: #445162;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #445162;
+                font-weight: 600;
+                
+    
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background-color: #ffffff;
+                
+                &:active{
+                    background-color: #445162;
+                    color:#ffffff;
+                    border: 1px solid #ffffff;
+                }
+            }
+        }
+
+        .contacts_info {
+            margin: 0 auto;
+
+            .contacts_list {
+                margin-bottom: 30px;
+                
+                .contacts_list-item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+        
+                    .contacts_icon {
+                        height: 26px;
+                        width: 26px;
+                        margin-right: 5px;
+        
+                    }
+                    .contacts_link{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                }
+            }
+        
+            .socials_list {
+                display: flex;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .socials_list-item {
+                    list-style: none;
+                    margin-right: 10px;;
+
+                    .socials_link{
+        
+                        .socials_img {
+        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .contacts {
+        
+        .contacts_title {
+
+        }
+        
+        .contacts_inner {
+    
+
+            .contacts_form {
+                width: 500px;
+
+
+                .contacts_message {
+                    height: 170px;
+                }
+        
+                .contacts_btn {
+
+
+                }
+            }
+            .contacts_info {
+
+ 
+                .contacts_list {
+                    
+        
+                    .contacts_list-item {
+
+                        .contacts_icon {
+
+            
+                        }
+                        .contacts_link{
+
+                        }
+                    }
+                }
+            
+                .socials_list {
+
+        
+                    .socials_list-item {
+
+                        .socials_link{
+            
+                            .socials_img {
+            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .contacts {
+    
+        .contacts_title {
+
+        }
+        
+        .contacts_inner {
+            flex-direction: row;
+
+            .contacts_form {
+                margin: 0;
+                margin-left: auto;
+                margin-right: 45px;
+        
+                .contacts_message {
+
+                }
+        
+                .contacts_btn {
+
+
+                }
+            }
+            .contacts_info {
+                margin: 0;
+                margin-right: auto;
+ 
+                .contacts_list {
+                    
+        
+                    .contacts_list-item {
+                        margin-bottom: 20px;
+            
+                        .contacts_icon {
+
+            
+                        }
+                        .contacts_link{
+
+                        }
+                    }
+                }
+            
+                .socials_list {
+
+        
+                    .socials_list-item {
+
+                        .socials_link{
+            
+                            .socials_img {
+            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

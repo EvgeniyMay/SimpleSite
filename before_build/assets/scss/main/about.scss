@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    flex-direction: column;
+
+    .about_info {
+
+        .about_text {
+            margin-bottom: 15px;
+        }
+    }
+
+    .about_img {
+        height: 165px;
+        width: 290px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .about {
+
+        .about_img {
+            height: 245px;
+            width: 430px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about {
+        flex-direction: row;
+    
+        .about_title {
+            text-align: left;;
+        }
+
+        .about_img {
+                margin-left: 100px;
+            }
+    }
+}

@@ -1,0 +1,86 @@
+.goods {
+    padding-bottom: 0px;
+
+    .goods_list {
+        width: 100%;
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-around;
+
+        .product_wrap {
+            width: 300px;
+            margin-right: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+
+            color: #ffffff;
+
+            border: 1px solid #445162;
+            border-radius: 5px;
+            background-color: #445162;
+
+            .product_title{
+                text-align: center;
+                font-size: 24px;
+                font-weight: 400;
+                padding: 16px;
+            }
+
+            .product_price {
+                text-align: center;
+                padding: 18px;
+                font-size: 40px;
+                line-height: 30px;
+
+                background-color: #ffffff;
+                color: #445162;
+            }
+
+            .product_des-list {
+                list-style-position: inside;
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+
+                .product_des-item {
+                    color: #ffffff;
+                    font-family: "Arial MT";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+
+            .product_btn {
+                width: 260px;
+                height: 40px;
+                margin: 20px;
+
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #445162;
+                font-weight: 600;
+                
+
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background-color: #ffffff;
+
+                transition: 1s font-size, font-weight;
+
+                &:hover {
+                    font-size: 22px;
+                }
+                
+                &:active{
+                    background-color: #445162;
+                    color:#ffffff;
+                    border: 1px solid #ffffff;
+                }
+            }
+        }
+    }
+}
